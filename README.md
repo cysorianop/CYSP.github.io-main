@@ -26,7 +26,7 @@
 </div>
 
 <p align="center">
-<a href="https://cysorianop.github.io/CYSP.github.io-main/" target="blank"><img align="center" src="https://buscarv.com.mx/wp-content/uploads/2018/07/www-1.gif" alt="linkedin" height="100" width="200" /></a>  
+<a href="https://cysorianop.github.io/CYSP.github.io-main/" target="_blank"><img align="center" src="https://buscarv.com.mx/wp-content/uploads/2018/07/www-1.gif" alt="linkedin" height="100" width="200" /></a>  
 </p>
 
 <div id="user-content-toc">
