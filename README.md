@@ -69,6 +69,8 @@ git clone https://github.com/cysorianop/CYSP.github.io-main.git
 # Navigate to the project folder
 cd CYSP.github.io-main
 
+ ```
+
 ## Contact
 
 - Email: cysp97@gmail.com  
@@ -86,4 +88,3 @@ cd CYSP.github.io-main
 - Location: Colombia  
 - Timezone: UTC-5  
 - Open to **remote opportunities**
-

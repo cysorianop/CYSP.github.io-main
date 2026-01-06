@@ -59,12 +59,18 @@ const revealObserver = new IntersectionObserver(
     entries.forEach(entry => {
       if (entry.isIntersecting) {
         entry.target.classList.add("visible");
+        revealObserver.unobserve(entry.target);
       }
     });
   },
-  { threshold: 0.2 }
+  {
+    threshold: 0.1,
+    rootMargin: "0px 0px -50px 0px"
+  }
 );
+
 
 document.querySelectorAll(".section").forEach(section => {
   revealObserver.observe(section);
 });
+
