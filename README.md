@@ -83,8 +83,6 @@ cd CYSP.github.io-main
 - Timezone: UTC-5  
 - Open to **remote opportunities**
 
-## Availability
+## 📄 License
 
-- Location: Colombia  
-- Timezone: UTC-5  
-- Open to **remote opportunities**
+This project is for personal and professional use.
