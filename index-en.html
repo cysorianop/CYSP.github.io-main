@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Cesar Soriano | Frontend & Full Stack Developer</title>
+
+  <meta name="description"
+    content="Frontend Developer with full stack experience in Vue, React, Angular, Node.js, Python and Spring Boot. Web applications, REST APIs and testing."/>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config = { darkMode: 'class' }</script>
+
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+
+<body class="bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-100">
+
+<!-- NAV -->
+<nav class="fixed w-full bg-white dark:bg-gray-800 shadow z-50">
+  <div class="max-w-6xl mx-auto px-4 h-16 flex justify-between items-center">
+    <span class="font-bold text-xl">CS</span>
+    <div class="space-x-6">
+      <a href="#profile" class="nav-link">Profile</a>
+      <a href="#experience" class="nav-link">Experience</a>
+      <a href="#skills" class="nav-link">Stack</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#contact" class="nav-link">Contact</a>
+      <a href="index.html" class="nav-link">ES</a>
+      <a href="index-en.html" class="nav-link font-bold">EN</a>
+      <button onclick="toggleDarkMode()">🌓</button>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="min-h-screen flex items-center justify-center pt-20">
+  <div class="text-center max-w-3xl px-4">
+    <h1 class="text-5xl font-bold mb-4">Cesar Soriano</h1>
+    <h2 class="text-2xl mb-4">Frontend Developer · Full Stack Experience</h2>
+
+    <p class="text-gray-600 dark:text-gray-300 mb-6">
+      Vue · React · Angular · Node.js · Python · Spring Boot
+    </p>
+
+    <p class="mb-8">
+      Frontend Developer with over 2 years of experience building modern,
+      responsive and scalable web applications, with hands-on backend experience.
+    </p>
+
+    <div class="flex justify-center gap-4">
+      <a href="#projects" class="btn-primary">View projects</a>
+      <a href="assets/CV_Cesar_Soriano_EN.pdf" target="_blank" class="btn-secondary">
+        Download CV
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- PROFILE -->
+<section id="profile" class="section">
+  <h2 class="section-title">Professional Profile</h2>
+  <p class="section-text">
+    Frontend Developer specialized in Vue.js, React and Angular, focused on
+    building responsive, accessible and scalable web interfaces.
+    Complementary backend experience with Node.js, Python and Spring Boot,
+    working with REST APIs, testing (TDD) and system integrations.
+  </p>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="section bg-gray-200 dark:bg-gray-800">
+  <h2 class="section-title">Work Experience</h2>
+
+  <div class="experience-item">
+    <h3>Web Developer – Sociedad Privada del Alquiler</h3>
+    <span>2024 – 2025</span>
+    <ul>
+      <li>Frontend development with React.</li>
+      <li>Data validation and process optimization.</li>
+    </ul>
+  </div>
+
+  <div class="experience-item">
+    <h3>Junior Developer – Saludtools</h3>
+    <span>2022 – 2024</span>
+    <ul>
+      <li>Migration from AngularJS to Vue and React.</li>
+      <li>Frontend and backend testing using Jest and Mockito (TDD).</li>
+      <li>Backend development with Spring Boot and REST APIs.</li>
+      <li>Patient portal for telemedicine platforms.</li>
+    </ul>
+  </div>
+
+  <div class="experience-item">
+    <h3>Technical Consultant – Digital Solutions for Business</h3>
+    <span>2021 – 2022</span>
+    <ul>
+      <li>Frontend layout and SQL Server queries.</li>
+      <li>Enterprise architecture support.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section">
+  <h2 class="section-title">Technical Stack</h2>
+
+  <div class="skills-grid">
+    <div class="skill-icon"><img src="assets/img/skills/vue.svg"><span>Vue.js</span></div>
+    <div class="skill-icon"><img src="assets/img/skills/react.svg"><span>React</span></div>
+    <div class="skill-icon"><img src="assets/img/skills/angular.svg"><span>Angular</span></div>
+    <div class="skill-icon"><img src="assets/img/skills/typescript.svg"><span>TypeScript</span></div>
+    <div class="skill-icon"><img src="assets/img/skills/node.svg"><span>Node.js</span></div>
+    <div class="skill-icon"><img src="assets/img/skills/python.svg"><span>Python</span></div>
+    <div class="skill-icon"><img src="assets/img/skills/spring.svg"><span>Spring Boot</span></div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section bg-gray-200 dark:bg-gray-800">
+  <h2 class="section-title">Featured Projects</h2>
+
+  <div class="grid md:grid-cols-2 gap-8 mt-8">
+    <div class="project-card">
+      <img src="assets/img/projects/telemedicina.png" class="project-img">
+      <h3>Telemedicine Patient Portal</h3>
+      <p>
+        Responsive frontend built with Vue and React, integrated with REST APIs
+        developed in Spring Boot.
+      </p>
+      <a href="https://github.com/cysorianop" target="_blank">GitHub</a>
+    </div>
+
+    <div class="project-card">
+      <img src="assets/img/projects/api.png" class="project-img">
+      <h3>REST APIs</h3>
+      <p>
+        Backend services developed with Node.js and Python,
+        integrated with web frontends.
+      </p>
+      <a href="https://github.com/cysorianop" target="_blank">GitHub</a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section text-center">
+  <h2 class="section-title">Contact</h2>
+  <p>Email: <a href="mailto:cysp97@gmail.com" class="text-blue-500">cysp97@gmail.com</a></p>
+  <p class="mt-2">
+    <a href="https://github.com/cysorianop" target="_blank">GitHub</a> ·
+    <a href="https://www.linkedin.com/in/cesar-soriano-frontend/" target="_blank">LinkedIn</a>
+  </p>
+</section>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
+

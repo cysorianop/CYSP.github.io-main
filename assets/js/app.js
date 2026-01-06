@@ -20,6 +20,10 @@ h2.forEach(( cadaH2, i)=>{
     
 })  
 
+function toggleDarkMode() {
+  document.documentElement.classList.toggle('dark');
+}
+
 slider.insertAdjacentElement('afterbegin', sliderSectionLast);
 
 function Next() {
